@@ -1,10 +1,9 @@
 export default function DashboardLayout({
-    children,
-    users,
-    revenue,
-    notification
+    notification,
+    login
 }){
-    return(
+    const isLoggendIn = false
+    return isLoggendIn ?(
         <div>
             <div>{children}</div>
             <div>style = {{display:"flex"}}
@@ -17,5 +16,7 @@ export default function DashboardLayout({
                 </div>
             </div>
         </div>
+    ):(
+        login
     )
 }
