@@ -1,0 +1,56 @@
+{
+  "events":[
+    {"id":1,"title": "Evnet1","desc":"Desc 1","category": "Category 1","Date":"April 05"},
+    {"id":2,"title": "Evnet2","desc":"Desc 2","category": "Category 2","Date":"April 06"},
+    {"id":3,"title": "Evnet3","desc":"Desc 3","category": "Category 3","Date":"April 07"},
+    {"id":4,"title": "Evnet4","desc":"Desc 4","category": "Category 1","Date":"April 08"},
+    {"id":5,"title": "Evnet5","desc":"Desc 5","category": "Category 2","Date":"April 09"},
+    {"id":6,"title": "Evnet6","desc":"Desc 6","category": "Category 3","Date":"April 10"}
+  ],
+  "dashboard":{
+    "posts":5, 
+    "likes":100,
+    "followers":120,
+    "following":50
+  },
+  "news":[
+    {
+      "id":1,
+      "title":"News 1",
+      "category":"sports",
+      "desc":"Desc 1"
+    },
+    {
+      "id":2,
+      "title":"News 2",
+      "category":"politics",
+      "desc":"Desc 2"
+    },
+    {
+      "id":3,
+      "title":"News 3",
+      "category":"sports",
+      "desc":"Desc 3"
+    }
+  ],
+  "products":[
+    {
+      "id":1,
+      "title":"Product 1",
+      "price":10,
+      "desc":"Desc 1"
+    },
+    {
+      "id":2,
+      "title":"Product 2",
+      "price":20,
+      "desc":"Desc 2"
+    },
+    {
+      "id":3,
+      "title":"Product 3",
+      "price":30,
+      "desc":"Desc 3"
+    }
+  ]
+}
