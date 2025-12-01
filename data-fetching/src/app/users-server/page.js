@@ -1,4 +1,7 @@
+import { resolve } from "styled-jsx/css"
+
 export default async function UsersServer() {
+    await new Promise((resolve)=> setTimeout(resolve,2000))
     const response = await fetch(
         "http://jsonplaceholder.typicode.com/users"
     )
